@@ -1,4 +1,3 @@
-import { auth,OrganizationSwitcher, UserButton } from '@clerk/nextjs'
 import React from 'react'
 
 type Props = {
@@ -6,13 +5,9 @@ type Props = {
 }
 
 const organizationPage = (props: Props) => {
-    const {userId,orgId}=auth()
   return (
     <div>
-        {/* <OrganizationSwitcher
-        hidePersonal
-        />
-        <UserButton/> */}
+        organizationIDPage
     </div>
   )
 }
