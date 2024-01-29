@@ -8,7 +8,7 @@ type Props = {
 const OrganizationIdLayout = ({children}: Props) => {
   return (
     <>
-    <OrgControl/>
+      <OrgControl/>
         {children}
     </>
   )
